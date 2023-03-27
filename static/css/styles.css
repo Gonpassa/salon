@@ -57,6 +57,18 @@ a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero::after, .hero::before{
+    content: '';
+    position: absolute;
+    height: 200px;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    transform: skewY(5deg);
 }
 
 .hero .container {
@@ -99,16 +111,19 @@ a{
     justify-content: space-around;
     padding: 10px 20px;
     margin-top: 20px;
+    z-index: 2;
 }
 
 .hero .container section h2{
     font-size: 1.4rem;
+    font-weight: 400;
 }
 
 .btn-secondary{
     background-color: #fff;
     color: #000;
     padding: 10px 20px;
+    font-family: 'Crimson Text';
 }
 
 
