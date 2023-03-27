@@ -42,6 +42,15 @@ a{
     margin: 0px 20px;
 }
 
+.active{
+    border-bottom: 1px solid black;
+}
+
+.navbar nav a:hover{
+    border-bottom: 1px solid black;
+}
+
+
 .logo{
     justify-self: flex-start;
     font-weight: bold;
@@ -63,12 +72,13 @@ a{
 .hero::after, .hero::before{
     content: '';
     position: absolute;
-    height: 200px;
-    bottom: -60px;
+    height: 176px;
+    bottom: -57px;
     right: 0;
     left: 0;
     background-color: #fff;
-    transform: skewY(5deg);
+    transform: skewY(4deg);
+    z-index: 1;
 }
 
 .hero .container {
@@ -126,11 +136,38 @@ a{
     font-family: 'Crimson Text';
 }
 
+/* Icons */
+.icons{
+    height: 400px;
+    width: 100%;
+}
 
+.icons .container{
+    height: 350px;
+}
 
+.icons .container section{
+    height: 100%;
+    width: 33%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 80px 15px;
+}
 
+.icons .container section i{
+    font-size: 2.5rem;
+}
 
+.icons .container section h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
+.icons .container section p{
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
 
 
 
