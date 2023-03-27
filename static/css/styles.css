@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    font-family: 'Crimson Text', sans-serif;
+    color: #333;
+}
+
+ul{
+    list-style-type: none;  
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.hidden{
+    visibility: hidden;
+    height: 0;  
+}
+
+/* LAYOUT  */
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.navbar .container{
+    height: 100%;
+    justify-content: space-between;
+}
+
+.navbar li{
+    margin: 0px 20px;
+}
+
+.logo{
+    justify-self: flex-start;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* Hero */
+.hero {
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/first.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .container {
+    padding-top: 100px;
+    padding-left: 150px;
+    height: 90%;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.hero h1{
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.hero article span{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.btn{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 10px;
+    margin-top: 10px;
+    width: 30%;
+    font-family: 'Crimson Text';
+    font-size: 1rem;
+}
+
+.hero .container section{
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    width: 30%;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.hero .container section h2{
+    font-size: 1.4rem;
+}
+
+.btn-secondary{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utilities */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;    
+}
+
+.flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
