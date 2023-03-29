@@ -169,6 +169,34 @@ a{
     text-align: center;
 }
 
+/* Momentum */
+.momentum{
+    height: 400px;
+    width: 100%;
+    background-color: #f3f4f6;
+}
+.momentum > .flex{
+    justify-content: space-around;
+}
+.momentum .container.flex section{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 400px;
+    padding: 25px 0;
+    align-items: flex-start;
+}
+
+.momentum .flex section h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.momentum img{
+    height: 310px;
+    width: 450px;
+}
+
 
 
 
