@@ -197,7 +197,53 @@ a{
     width: 450px;
 }
 
+/* Staff */
+.staff{
+    height: 650px;
+    width: 100%;
+}
 
+.staff .container.flex{
+    justify-content: space-around;
+    height: 100%;
+}
+
+div.stylist{
+    width: 30%;
+    align-items: flex-end;
+}
+
+.third{
+    background-image: url(../images/third.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;    
+}
+
+.fourth{
+    background-image: url(../images/fourth.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;    
+}
+
+.fifth{
+    background-image: url(../images/fifth.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;    
+}
+
+.stylist section{
+    height: 20%;
+    width: 75%;
+    background-color: #000;
+    flex-direction: column;
+    color: #fff;
+}
 
 
 
