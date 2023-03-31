@@ -73,11 +73,11 @@ a{
     content: '';
     position: absolute;
     height: 176px;
-    bottom: -57px;
+    bottom: -63px;
     right: 0;
     left: 0;
     background-color: #fff;
-    transform: skewY(4deg);
+    transform: skewY(3.5deg);
     z-index: 1;
 }
 
@@ -269,10 +269,74 @@ div.stylist{
     font-weight: 400;
 }
 
+/* Lookbook */
+.lookbook{
+    height: 1100px;
+    width: 100%;
+}
 
+.lookbook .container{
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
 
+.lookbook h2, .lookbook span{
+    font-size: 3rem;
+}
 
+.lookbook .allImages{
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+}
 
+.allImages section{
+    width: 33%;
+    height: 100%;
+}
+
+.allImages .flex{
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.allImages .square{
+    height: 35%;
+    width: 100%;
+}
+
+.allImages .rectangle{
+    height: 64%;
+    width: 100%;
+}
+
+.imageOne{
+    background-image: url("https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Gallery-01.jpg")
+}
+
+.imageTwo{
+    background-image: url("https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Masonry-02.jpg")
+
+}
+
+.imageThree{
+    background-image: url("https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Masonry-01.jpg") 
+}
+
+.imageFour{
+    background-image: url("https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Gallery-04.jpg") 
+
+}
+
+.imageFive{
+    background-image: url("https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Gallery-02.jpg")
+
+}
+
+.imageSix{
+    background-image: url("https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Masonry-03.jpg")
+}
 
 
 
