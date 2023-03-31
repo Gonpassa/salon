@@ -245,8 +245,29 @@ div.stylist{
     color: #fff;
 }
 
+/* Offer */
+.offer{
+    height: 400px;
+    width: 100%;
+}
 
+.offer .container{
+    height: 100%;
+    padding: 20px 100px;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-image: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Promo-Banner-Image.jpg?id=4553');
+}
 
+.offer span{
+    font-size: 2rem;
+}
+
+.offer h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
 
 
 
